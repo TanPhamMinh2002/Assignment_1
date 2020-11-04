@@ -1,0 +1,48 @@
+body{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr 200px;
+}
+
+header, nav, main, footer{
+    margin: 10px;
+    padding: 20px;
+}
+
+header{
+    background-color: #946f6b;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+nav{
+    background-color: #b9baba;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+main{
+    background-color: #dddcde;
+    grid-row: 2/3;
+    grid-column: 2/-1;
+}
+
+footer{
+    background-color: #cfbabe;
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+    text-align: center;
+}
+
+#save, #new_note{
+    background-color: green
+}
+
+#cancel{
+    background-color: red
+}
+
+#dark_theme{
+    background-color: gray
+}
